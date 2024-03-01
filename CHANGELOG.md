@@ -9,8 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Commits
 
-- Initial implementation, tests, readme, types [`84cce4f`](https://github.com/ljharb/safe-bigint/commit/84cce4fd87fa6b97e4b39cf5b1fbbad63b54fd05)
+- Initial implementation, tests, readme, types [`b8ef3e0`](https://github.com/ljharb/safe-bigint/commit/b8ef3e0bfb1c75313caf9fe79b7a1b7eddf6da50)
 - Initial commit [`240198a`](https://github.com/ljharb/safe-bigint/commit/240198abf093da224383bd20f0dcd925dd8bf808)
-- npm init [`871f53e`](https://github.com/ljharb/safe-bigint/commit/871f53e40f5131c35e2b67547b6e19b4a2bbcafb)
-- Only apps should have lockfiles [`30e2b36`](https://github.com/ljharb/safe-bigint/commit/30e2b36c978f34e2136418ae3115508bba2ea3c8)
-- [actions] add notable versions to test [`6a65ecd`](https://github.com/ljharb/safe-bigint/commit/6a65ecd5a2fa57ce0674f32af0a836d4eb89ee14)
+- npm init [`9298be2`](https://github.com/ljharb/safe-bigint/commit/9298be22699d76b8696f2fbe87b5b1bef720034e)
+- Only apps should have lockfiles [`8bfd7eb`](https://github.com/ljharb/safe-bigint/commit/8bfd7ebaad3f15ff72493e5532425bb4d4ce0a61)
+- [actions] add notable versions to test [`ed3f8e6`](https://github.com/ljharb/safe-bigint/commit/ed3f8e6a5ebfde15221563dc750650a1ba8691a7)
