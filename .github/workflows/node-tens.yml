@@ -7,5 +7,6 @@ jobs:
     uses: ljharb/actions/.github/workflows/node.yml@main
     with:
       range: '>= 10'
+      notable: '10.4 - 10.8'
       type: minors
       command: npm run tests-only
