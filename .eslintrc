@@ -1,0 +1,20 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"rules": {
+		"multiline-comment-style": "off",
+		"new-cap": ["error", {
+			"capIsNewExceptions": [
+				"GetIntrinsic"
+			],
+		}],
+		"no-implicit-coercion": ["error", {
+			"boolean": false,
+			"number": false,
+			"string": true,
+		}],
+		"no-magic-numbers": "off",
+	},
+}
