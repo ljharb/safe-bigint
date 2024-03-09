@@ -18,7 +18,7 @@
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"disabled-prelint": "evalmd README.md",
 		"lint": "eslint --ext=js,mjs .",
-		"postlint": "tsc -P .",
+		"postlint": "tsc -p . && attw -P",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
@@ -42,6 +42,7 @@
 		"get-intrinsic": "^1.2.4"
 	},
 	"devDependencies": {
+		"@arethetypeswrong/cli": "^0.15.1",
 		"@ljharb/eslint-config": "^21.0.0",
 		"@types/call-bind": "^1.0.5",
 		"@types/for-each": "^0.3.3",
