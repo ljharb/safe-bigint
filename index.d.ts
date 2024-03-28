@@ -1,3 +1,3 @@
-declare const BigInt: BigIntConstructor | ((int: number) => bigint) | undefined;
+declare const BigInt: ((int: number | bigint) => bigint) | undefined;
 
 export = BigInt;

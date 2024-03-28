@@ -24,7 +24,10 @@ if ($BigInt) {
 }
 
 /** @type {import('.')} */
-module.exports = needsBigIntHack ? /** @type {(int: number) => bigint} */ function safeBigInt(int) {
+module.exports = needsBigIntHack ? function safeBigInt(int) {
+	if (typeof int === 'bigint') {
+		return int;
+	}
 	if (int > MAX_SAFE_INTEGER || -int > MAX_SAFE_INTEGER) {
 		// construct a maximum-precision string of digits
 		// from a native serialization like <digits>.<zeroes> or <digit>.<digits>e+<exponent>

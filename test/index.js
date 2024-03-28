@@ -23,11 +23,14 @@ test('safeBigInt', function (t) {
 			'1',
 			'-23',
 			'9007199254740991',
-			'9007199254740992'
+			'9007199254740992',
+			BigInt('9214364837600034814')
 		], function (numStr) {
-			var num = +numStr;
+			var num = typeof numStr === 'string' ? +numStr : numStr;
 
-			st.equal(String(num), numStr, 'String(' + inspect(num) + ') === ' + inspect(numStr));
+			if (typeof numStr === 'string') {
+				st.equal(String(num), numStr, 'String(' + inspect(num) + ') === ' + inspect(numStr));
+			}
 			// @ts-expect-error TS can't narrow based on tape's `skip`
 			var bigint = safeBigInt(num);
 
