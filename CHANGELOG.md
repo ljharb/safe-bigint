@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/ljharb/safe-bigint/compare/v1.0.1...v1.1.0) - 2024-03-28
+
+### Commits
+
+- [New] add `is-safe` entrypoint [`ac6f82d`](https://github.com/ljharb/safe-bigint/commit/ac6f82d816191de6d6652a16f88a83326e2c3c97)
+- [Refactor] extract out "needs hack" logic [`d670522`](https://github.com/ljharb/safe-bigint/commit/d6705225e78b1fb828a6e5d868799119b734f1a7)
+- [Dev Deps] update `@ljharb/tsconfig` [`dc40964`](https://github.com/ljharb/safe-bigint/commit/dc40964d10c331f3ffbb34d5f06b5f91d50f6041)
+
 ## [v1.0.1](https://github.com/ljharb/safe-bigint/compare/v1.0.0...v1.0.1) - 2024-03-28
 
 ### Commits

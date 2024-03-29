@@ -1,6 +1,6 @@
 {
 	"name": "safe-bigint",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "Safely create a BigInt from a numerical string, even one larger than MAX_SAFE_INTEGER.",
 	"main": "index.js",
 	"browser": "modern.js",
