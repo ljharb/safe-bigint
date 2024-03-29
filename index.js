@@ -13,15 +13,7 @@ var $replace = callBound('String.prototype.replace');
 // eslint-disable-next-line no-extra-parens
 var MAX_SAFE_INTEGER = /** @type {9007199254740991} */ (Number.MAX_SAFE_INTEGER) || 9007199254740991; // Math.pow(2, 53) - 1;
 
-// node v10.4-v10.8 have a bug where you can't `BigInt(x)` anything larger than MAX_SAFE_INTEGER
-var needsBigIntHack = false;
-if ($BigInt) {
-	try {
-		$BigInt(Math.pow(2, 64));
-	} catch (e) {
-		needsBigIntHack = true;
-	}
-}
+var needsBigIntHack = require('./needs-hack');
 
 /** @type {import('.')} */
 module.exports = needsBigIntHack ? function safeBigInt(int) {
