@@ -1,7 +1,7 @@
 'use strict';
 
 var GetIntrinsic = require('get-intrinsic');
-var callBound = require('call-bind/callBound');
+var callBound = require('call-bound');
 
 var $BigInt = GetIntrinsic('%BigInt%', true);
 var $Function = GetIntrinsic('%Function%');
