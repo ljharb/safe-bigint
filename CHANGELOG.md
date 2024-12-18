@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.1](https://github.com/ljharb/safe-bigint/compare/v1.1.0...v1.1.1) - 2024-12-18
+
+### Commits
+
+- [actions] split out node 10-20, and 20+ [`6957cbe`](https://github.com/ljharb/safe-bigint/commit/6957cbe5ed8845f5aec2e7f32d8f2e34102d80e7)
+- [Dev Deps] update `@arethetypeswrong/cli`, `@ljharb/eslint-config`, `@ljharb/tsconfig`, `@types/get-intrinsic`, `@types/tape`, `auto-changelog`, `npmignore`, `object-inspect`, `tape` [`063d46f`](https://github.com/ljharb/safe-bigint/commit/063d46f53b838171e6f850fc06008ca67dc770f2)
+- [Refactor] use `call-bound` directly [`0b38419`](https://github.com/ljharb/safe-bigint/commit/0b384191518b549beaa3f01911f373c970441bbc)
+- [Deps] update `call-bind`, `get-intrinsic` [`c98b8fa`](https://github.com/ljharb/safe-bigint/commit/c98b8fadd0d9f5ff003caedf47858ffa67cbd32e)
+- [Tests] replace `aud` with `npm audit` [`e6923a6`](https://github.com/ljharb/safe-bigint/commit/e6923a66fcf49e51291b9b9e1eaf3cd3a3215c69)
+- [Dev Deps] update `@arethetypeswrong/cli`, `@types/tape` [`35a5b05`](https://github.com/ljharb/safe-bigint/commit/35a5b05b7dfd4a87e8ebe6fe076ae1d4873e6856)
+- [Dev Deps] add missing peer dep [`647cdee`](https://github.com/ljharb/safe-bigint/commit/647cdee78c3293c5e0dcb29d4d7a448fdb18c8c8)
+
 ## [v1.1.0](https://github.com/ljharb/safe-bigint/compare/v1.0.1...v1.1.0) - 2024-03-28
 
 ### Commits
